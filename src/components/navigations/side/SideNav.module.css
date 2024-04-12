@@ -1,0 +1,23 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    /* width: 100px; */
+}
+.layout__links{
+   display: flex;
+   flex-flow: column nowrap;
+    justify-content: center;
+}
+.layout__links a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #6a71ff;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+.layout__links a:hover{
+    color: #535bf2;
+}
